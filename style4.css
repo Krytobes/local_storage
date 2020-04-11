@@ -1,0 +1,46 @@
+textarea {
+	width: 80%;
+	height: 100px;
+	min-height: 80px;
+	min-width: 80%;
+	max-width: 80%;
+	margin: 5px 10%;
+}
+
+#notes {
+width: 100%;
+border: 1px solid red;
+float: left;
+}
+
+#add-note {
+border: 1px solid green;
+clear: both;
+text-align: center;
+}
+
+.note {
+background-color: #ccc;
+border: 1px solid blue;
+padding: 5px;
+width: 368.8px;
+height: 300px;
+float: left;
+overflow: auto;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+
+.note:hover {
+background-color: #aaa;
+}
+
+.close {
+display: block;
+text-align: right;
+margin: 5px;
+}
+
+p {
+	text-align: center;
+}
