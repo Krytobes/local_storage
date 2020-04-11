@@ -44,10 +44,9 @@ function createNote(text){
 	let p = document.createElement('p');
 	let a = document.createElement('a');
 
-	let nowtime = new Date();
 
 	div.classList.add('note');
-	p.innerHTML = text + '<br>' +nowtime.toLocaleString();
+	p.innerHTML = text;
 	a.href = '#';
 	a.innerHTML = 'Удалить';
 	a.classList.add('close');
